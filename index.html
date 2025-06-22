@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VlogMaster - Your Ultimate Vlogging Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .intro, .tips, .equipment, .contact {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .intro h2, .tips h2, .equipment h2, .contact h2 {
+            margin-top: 0;
+        }
+        .tips ul, .equipment ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tips li, .equipment li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact form button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background: #555;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VlogMaster</h1>
+        <p>Your Ultimate Guide to Vlogging</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#tips">Vlogging Tips</a>
+        <a href="#equipment">Equipment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="intro" class="intro">
+            <h2>Welcome to VlogMaster</h2>
+            <p>Whether you're a beginner or a seasoned vlogger, VlogMaster is here to help you create amazing content. From tips and tricks to equipment recommendations, we've got you covered.</p>
+        </section>
+
+        <section id="tips" class="tips">
+            <h2>Vlogging Tips</h2>
+            <ul>
+                <li>Plan your content ahead of time to stay organized.</li>
+                <li>Invest in good lighting to enhance your video quality.</li>
+                <li>Use a tripod to keep your shots steady.</li>
+                <li>Edit your videos to keep them engaging and concise.</li>
+                <li>Engage with your audience through comments and social media.</li>
+            </ul>
+        </section>
+
+        <section id="equipment" class="equipment">
+            <h2>Recommended Equipment</h2>
+            <ul>
+                <li><strong>Camera:</strong> Sony ZV-1 or Canon G7 X Mark III</li>
+                <li><strong>Microphone:</strong> Rode VideoMic Pro+</li>
+                <li><strong>Lighting:</strong> Neewer Ring Light Kit</li>
+                <li><strong>Tripod:</strong> Joby GorillaPod 5K</li>
+                <li><strong>Editing Software:</strong> Adobe Premiere Pro or Final Cut Pro</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 VlogMaster. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

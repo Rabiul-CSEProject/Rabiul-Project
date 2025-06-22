@@ -1,14 +1,21 @@
+package JavaBook;
+
 public class StringDemo2 {
     public static void main(String[] args) {
-        // String Bynary = "1010";
-        // Integer Decimal = Integer.parseInt(Bynary, 2);//info: number is two
-        // System.out.println(Decimal);
-        // String Octal = "675";
-        // Integer Decimal = Integer.parseInt(Octal, 8);//info: number is Eight
-        // System.out.println(Decimal);
-        String Hexadecimal = "A";
-        Integer Decimal = Integer.parseInt(Hexadecimal, 16);// info: number is Sixteen
-        System.out.println(Decimal);
+        String country = "Bangladesh";
+        System.out.println(country);
+
+        char ch = country.charAt(0);
+        System.out.println(ch);
+
+        int value = country.codePointAt(0);
+        System.out.println(value);
+
+        int pos = country.indexOf('n');
+        System.out.println(pos);
+
+        pos = country.lastIndexOf('n');
+        System.out.println(pos);
     }
 
 }
